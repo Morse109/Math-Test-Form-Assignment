@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Test</title>
+</head>
+<body>
+
+<!-- Start of the Test -->
+<form id="mathTestForm">
+
+    <!-- User's Name -->
+    <label for="userName">Name:</label>
+    <input type="text" id="userName" name="userName" required><br>
+
+    <!-- Question 1 -->
+    <p>1. What is the result of 5 + 7?</p>
+    <input type="radio" name="q1" value="a" required> a) 11
+    <input type="radio" name="q1" value="b"> b) 12
+    <input type="radio" name="q1" value="c"> c) 13<br>
+
+    <!-- Question 2 -->
+    <p>2. Solve: 3 * 4</p>
+    <input type="radio" name="q2" value="a" required> a) 7
+    <input type="radio" name="q2" value="b"> b) 12
+    <input type="radio" name="q2" value="c"> c) 15<br>
+
+    <!-- Question 3 -->
+    <p>3. Calculate: 20 / 5</p>
+    <input type="radio" name="q3" value="a" required> a) 3
+    <input type="radio" name="q3" value="b"> b) 4
+    <input type="radio" name="q3" value="c"> c) 5<br>
+
+    <!-- Word Problem -->
+    <p>4. Word Problem:</p>
+    <p>Alice has 8 apples. She gives 3 apples to her friend Bob and eats 2 herself. How many apples does Alice have now?</p>
+    <label for="wordProblemAnswer">Your Answer:</label>
+    <input type="text" id="wordProblemAnswer" name="wordProblemAnswer" required><br>
+
+    <!-- Math Symbols -->
+    <p>5. Solve: 2 &times; 6 + 10 &divide; 2 - 3</p>
+
+    <!-- Submit Button -->
+    <button type="submit">Submit</button>
+
+</form>
+<!-- End of the Test -->
+
+</body>
+</html>
